@@ -1,0 +1,137 @@
+.caixaOpcoes {
+    background: rgb(223, 222, 222);
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixaOpcoes a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.caixaOpcoes a:hover {
+    transition: 0.5s;
+    color: orange;
+}
+
+
+
+#titulo {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px;
+    margin-top: 20%;
+    font-family: initial;
+}
+
+.inputexto {
+    width: 80%;
+    margin-left: 10%;
+    min-height: 40px;
+    font-size: 15px;
+
+
+}
+
+#logo {
+    width: 50px;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    right: 10px;
+}
+
+.card {
+    height: 170px;
+    width: 120px;
+    background: #ffaa55;
+    border-radius: 20px;
+    margin: 10px;
+
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+    transition: 0.5s ease;
+
+    display: inline-flex;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.caixaProdutos {
+    width: 100%;
+    margin-left: 3%;
+    margin-top: px;
+    margin: 0;
+    overflow-x: hidden;
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.caixaProdutos::-webkit-scrollbar {
+    width: 0px;
+}
+
+.caixaProdutos::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+#containerPrincipal {
+    margin-top: 15%;
+}
+
+
+.titulosLivro {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+
+
+.livro5 {
+    background-image: url("https://m.media-amazon.com/images/I/61AEhndjtbL._SY445_SX342_.jpg");
+    background-size: 120px;
+}
+
+.livro6 {
+    background-image: url("https://m.media-amazon.com/images/I/51IXujjpjeL._SY445_SX342_.jpg");
+    background-size: 120px;
+}
+
+.livro7 {
+    background-image: url("https://m.media-amazon.com/images/I/71y+XnBXm4L._SY466_.jpg");
+    background-size: 120px;
+}
+
+.livro8 {
+    background-image: url("https://m.media-amazon.com/images/I/513cm8JktAL._SY445_SX342_.jpg");
+    background-size: 120px;
+}
+
+.caixaFotoPerfil {
+    width: 170px;
+    height: 170px;
+    background-image: url("https://avatars.githubusercontent.com/u/119413795?v=4");
+    background-size: 180px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#nomeUsuario{
+    text-align: center;
+}
